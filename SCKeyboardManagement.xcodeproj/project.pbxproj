@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		7E95F60A2212AEF000725C45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E95F6092212AEF000725C45 /* AppDelegate.swift */; };
-		7E95F60C2212AEF000725C45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E95F60B2212AEF000725C45 /* ViewController.swift */; };
 		7E95F60F2212AEF000725C45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E95F60D2212AEF000725C45 /* Main.storyboard */; };
 		7E95F6112212AEF100725C45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E95F6102212AEF100725C45 /* Assets.xcassets */; };
 		7E95F6142212AEF100725C45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E95F6122212AEF100725C45 /* LaunchScreen.storyboard */; };
+		7E95F61C2212AF0B00725C45 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E95F61B2212AF0A00725C45 /* UIView.swift */; };
+		7E95F61E2212AF6600725C45 /* NewAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E95F61D2212AF6500725C45 /* NewAccountVC.swift */; };
+		7E95F6202212AF7D00725C45 /* NewAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E95F61F2212AF7D00725C45 /* NewAccountView.swift */; };
+		7E95F6222212AFB400725C45 /* CustomTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E95F6212212AFB400725C45 /* CustomTextFieldView.swift */; };
+		7E95F6242212AFC700725C45 /* LeftRightPaddedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E95F6232212AFC700725C45 /* LeftRightPaddedTextField.swift */; };
+		7E95F6262212AFEE00725C45 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E95F6252212AFEE00725C45 /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7E95F6062212AEF000725C45 /* SCKeyboardManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCKeyboardManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E95F6092212AEF000725C45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7E95F60B2212AEF000725C45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7E95F60E2212AEF000725C45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E95F6102212AEF100725C45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E95F6132212AEF100725C45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E95F6152212AEF100725C45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E95F61B2212AF0A00725C45 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		7E95F61D2212AF6500725C45 /* NewAccountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAccountVC.swift; sourceTree = "<group>"; };
+		7E95F61F2212AF7D00725C45 /* NewAccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAccountView.swift; sourceTree = "<group>"; };
+		7E95F6212212AFB400725C45 /* CustomTextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextFieldView.swift; sourceTree = "<group>"; };
+		7E95F6232212AFC700725C45 /* LeftRightPaddedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftRightPaddedTextField.swift; sourceTree = "<group>"; };
+		7E95F6252212AFEE00725C45 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				7E95F6092212AEF000725C45 /* AppDelegate.swift */,
-				7E95F60B2212AEF000725C45 /* ViewController.swift */,
+				7E95F61B2212AF0A00725C45 /* UIView.swift */,
+				7E95F6252212AFEE00725C45 /* UIColor.swift */,
+				7E95F61D2212AF6500725C45 /* NewAccountVC.swift */,
+				7E95F6232212AFC700725C45 /* LeftRightPaddedTextField.swift */,
+				7E95F6212212AFB400725C45 /* CustomTextFieldView.swift */,
+				7E95F61F2212AF7D00725C45 /* NewAccountView.swift */,
 				7E95F60D2212AEF000725C45 /* Main.storyboard */,
 				7E95F6102212AEF100725C45 /* Assets.xcassets */,
 				7E95F6122212AEF100725C45 /* LaunchScreen.storyboard */,
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E95F60C2212AEF000725C45 /* ViewController.swift in Sources */,
+				7E95F61E2212AF6600725C45 /* NewAccountVC.swift in Sources */,
+				7E95F6262212AFEE00725C45 /* UIColor.swift in Sources */,
+				7E95F6202212AF7D00725C45 /* NewAccountView.swift in Sources */,
+				7E95F61C2212AF0B00725C45 /* UIView.swift in Sources */,
+				7E95F6222212AFB400725C45 /* CustomTextFieldView.swift in Sources */,
 				7E95F60A2212AEF000725C45 /* AppDelegate.swift in Sources */,
+				7E95F6242212AFC700725C45 /* LeftRightPaddedTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
